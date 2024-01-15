@@ -1,21 +1,18 @@
-.idea
-.DS_Store
+# General
+dist
 .env
-.netlify
+.DS_Store
+
+# Redwood
 .redwood
 dev.db*
-dist
-dist-babel
-node_modules
-yarn-error.log
+api/src/lib/generateGraphiQLHeader.*
 web/public/mockServiceWorker.js
 web/types/graphql.d.ts
 api/types/graphql.d.ts
-api/src/lib/generateGraphiQLHeader.*
+
+# Yarn
+node_modules
+yarn-error.log
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.yarn
